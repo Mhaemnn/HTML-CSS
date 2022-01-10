@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html.form</title>
+    <style>
+        body{
+            background-color: #eee;
+            font-size: 10pt;
+        }
+        .container{
+            width: 50%;
+            margin:0 auto;
+            background-color: white;
+            padding: 10px;
+            
+        }
+        .container h3{
+            text-align: center;
+            text-transform: uppercase;
+            font-weight: normal;
+        }
+        table{
+            margin: 0 auto;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form>
+            <table>
+                <h3>formulir pendaftaran</h3>
+                <tr>
+                    <td>Nama Lengkap</td>
+                    <td>:</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Tempat Lahir</td>
+                    <td>:</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Tanggal Lahir</td>
+                    <td>:</td>
+                    <td><input type="date"></td>
+                </tr>
+                <tr>
+                    <td>Jenis Kelamin</td>
+                    <td>:</td>
+                    <td>
+                        <label for="js">Pria</label>
+                        <input type="radio" id="Js" name="js" value="js">
+                        <label js="radio">Wanita</label>
+                        <input type="radio" id="js" name="js" value="">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Alamat</td>
+                    <td>:</td>
+                    <td><textarea name="" id="" cols="15" rows="0"></textarea></td>
+                </tr>
+                <tr>
+                    <td>E-mail</td>
+                    <td>:</td>
+                    <td><input type="email"></td>
+                </tr>
+                <tr>
+                    <td>No Telepn</td>
+                    <td>:</td>
+                    <td><input type="number"></td>
+                </tr>
+                <tr>
+                    <td>Domisili</td>
+                    <td>:</td>
+                    <td>
+                        <select name="" id="">
+                            <option value="Pilih">Pilih Kota</option>
+                            <option value="bandung">Bandung</option>
+                            <option value="cianjur">Cianjur</option>
+                            <option value="cipanas">Cipanas</option>
+                            <option value="solo">Solo</option>
+                            <option value="malang">Malang</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>&nbsp</td>
+                    <td>&nbsp</td>
+                    <td><input type="submit" name="submit" value="Kirim"/> <input type="reset" name="reset" value="Batal"/></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>

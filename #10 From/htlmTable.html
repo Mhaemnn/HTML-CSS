@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>htmlTable</title>
+    <style>
+        body{
+            background-color: #eee;
+            font-size: 10pt;
+        }
+        .container{
+            width: 50%;
+            background-color:white;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        table{
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form action="">
+            <table  cellpadding="3" cellspacing="0">
+                <tr>
+                    <td><label for="uname">Username</label></td>
+                    <td>:</td>
+                    <td> <input type="text" id="uname" name="uname"></td>
+                </tr>
+                <tr>
+                    <td><label for="psw">Password </label></td>
+                    <td>:</td>
+                    <td> <input type="password" id="psw" name="psw"></td>
+                </tr>
+                <tr>
+                    <td>Jenis Kelamin</td>
+                    <td>:</td>
+                    <td><label for="radio">Pria</label> <input type="radio" id="radio" name="radio"/> <label for="radio">Pria</label> <input type="radio" id="radio" name="radio"/></td>
+                </tr>
+                <tr>
+                    <td>Hoby</td>
+                    <td>:</td>
+                    <td> <label for="hoby">Anime</label> <input type="checkbox" id="hoby" name="hoby"/> <label for="hoby">Ngoding</label> <input type="checkbox" id="hoby" name="hoby"/></td>
+                </tr>
+                <tr>
+                    <td>Pavorit</td>
+                    <td>:</td>
+                    <td>
+                        <select>
+                            <option value="kimetsu no yayiba">Kimetsu No Yaiba</option>
+                            <option value="black clover">Black Clover</option>
+                            <option value="nauto">Naruto</option>
+                            <option value="attack on titan">Attack On Titan</option>
+                            <option value="one piece">One Piece</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Masukan</td>
+                    <td>:</td>
+                    <td><textarea name="" id="" cols="15" rows="0"></textarea></td>
+                </tr>
+                <tr>
+                    <td>&nbsp</td>
+                    <td>&nbsp</td>
+                    <td><input type="submit" id="submit" value="Kirim!"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>

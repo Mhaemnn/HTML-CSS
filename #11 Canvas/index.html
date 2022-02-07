@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <canvas id="mycanvas" width="200px" height="100px" style="border: 1px solid #d3d3d3;" >
+            your browser does not suppots the HTML canvas tag
+        </canvas>
+
+        <!-- myscript -->
+        <script>
+            var c = document.getElementById("mycanvas");
+            var ctx = c.getContext("2d");
+            ctx.moveTo(0,0);
+            cxt.lineTo(200,100);
+            ctx.stroke();
+        </script>
+    </body>
+</html>

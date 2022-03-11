@@ -1,5 +1,5 @@
 # HTML DASAR
-<img src='html-file.png' style='width:50%'> <br>
+<img src='html-file.png' style='width:40%; margin:auto;'> <br>
 Repositori ini berisi tentang HTML dasar dari hasil pembelajaran matakulaih __Teknik Informtika.__ 
 __HTML__ adalah bahasa markup yang membentuk struktur halaman website agar dapat diproses dan dikenali oleh web browser.
 ### Persiapan

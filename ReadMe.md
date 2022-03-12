@@ -1,4 +1,4 @@
-# HTML DASAR
+## HTML DASAR
 <img src='html-file.png' style='width:30%; margin-left:auto; margin-right:auto; display:block'> <br>
 Repositori ini berisi tentang HTML dasar dari hasil pembelajaran matakulaih __Teknik Informtika.__ 
 __HTML__ adalah bahasa markup yang membentuk struktur halaman website agar dapat diproses dan dikenali oleh web browser.
@@ -12,3 +12,20 @@ __HTML__ adalah bahasa markup yang membentuk struktur halaman website agar dapat
 </ul>
 
 #### Contoh Syntax HTML Sederhana
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+
+        <h3>Ini Heading</h3>
+        <p>Ini Paragraf</p>
+
+    </body>
+</html>
+```
+
+> Dipersilahkan bagi yang ingin melakukan open pull request atau konstribusi pada repository HTML.

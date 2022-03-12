@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#@font-face</title>
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/myfirstfont" type="text/css" />
+    <style>
+        @font-face {
+            font-family: OpenSans-Regular-webfont;
+            src: url(./OpenSans-Regular-webfont.woff);
+        }
+
+        body {
+            background-color: #eaeaea;
+            color: #333;
+            font-family: OpenSans-Regular-webfont;
+
+        }
+
+        .container {
+            width: 600px;
+            background-color: white;
+            margin: auto;
+            padding: 10px;
+        }
+
+        .container a {
+            text-decoration: none;
+        }
+
+        hr {
+            border: 0;
+            border-top: 4px double #8c8c8c;
+            text-align: center;
+        }
+
+        hr::after {
+            content: '\ae';
+            display: inline-block;
+            position: relative;
+            top: -15px;
+            padding: 0 10px;
+            background: #fff;
+            color: #8c8c8c;
+            font: 18px;
+        }
+
+        .container a {
+            color: salmon;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <hr>
+        <h3>layanan untuk mendownload font</h3>
+        <ul>
+            <li><a href="https://www.fontsquirrel.com/">fontsquirrel</a></li>
+            <li><a href="https://fonts.google.com/">google.font</a></li>
+        </ul>
+        <h3>woff</h3>
+        <ul>
+            <li>web open file format</li>
+            <li>dikembangkan oleh mozila</li>
+            <li>dibuat khusus untuk website</li>
+            <li>diload lebih cepat</li>
+            <li>merupakan kompersi dari tipe TTP/OFF</li>
+        </ul>
+        <hr>
+    </div>
+</body>
+
+</html>

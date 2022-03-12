@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PsudoClassCss:Element</title>
+    <style>
+        /* a anak pertama dari li */
+        li:first-child a:hover{
+            color: seagreen;
+            font-size: 20px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            
+        }
+        /* a anak terakhir dali li */
+        li:last-child a:hover{
+            color:rgb(12, 184, 236);
+            font-size: 20px;
+            font-family: monospace;
+        }
+        /* untuk membuat kelipatan 2, 2n, 3n-/+2 */
+        li:nth-child(2n-1) a{
+            color: coral;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+        }
+
+        /* untuk menggunakan first-of-type / last-of-type */
+        p:first-of-type{
+            color: crimson;
+        }
+    </style>
+</head>
+<body>
+    <h3>belajar PsudoClassCss</h3>
+    <ul>
+        <!-- unutk membuata link dan a seklaigus li*10>a -->
+       <li><a href="#">link1</a></li>
+       <li><a href="#">link2</a></li>
+       <li><a href="#">link3</a></li>
+       <li><a href="#">link4</a></li>
+       <li><a href="#">link5</a></li>
+       <li><a href="#">link6</a></li>
+       <li><a href="#">link7</a></li>
+       <li><a href="#">link8</a></li>
+       <li><a href="#">link9</a></li>
+       <li><a href="#">link10</a></li>
+    </ul>
+    
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+        Fugiat alias nulla eaque iste earum beatae est quam quibusdam,
+        enim dolor quo, facilis illum corporis amet dignissimos obcaecati velit, animi ut.</p>
+</body>
+</html>

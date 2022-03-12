@@ -1,0 +1,206 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* font */
+
+/* style css */
+body{
+    background-color: #eaeaea;
+    color: #666;
+    font: 12pt/28pt;
+}
+
+.container{
+    width: 960px;
+    background-color: white;
+    margin: auto;
+}
+/* header  */
+.header{
+    padding: 10px;
+}
+.header .judul{
+    font-size: 25px;
+    font-weight: bold;
+    text-transform:capitalize;
+}
+.header ul li{
+    display: inline-block;
+    margin-top: 15px;
+}
+.header a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    padding:3px;
+    color: salmon;
+}
+.header a:hover{
+    background-color: lightskyblue;
+    color: white;
+    transition: .3s;
+    
+}
+/* hero image */
+.hero{
+    height:280px;
+    background-position: 0 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(./panska.jpg);
+}
+/* content */
+/* main */
+.main{
+    box-sizing: border-box;
+    width: 600px;
+    padding: 15px;
+    float:left;
+}
+.main h1{
+    font-size: 21px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.main .penulis{
+    margin-top: 8px;
+    text-transform: capitalize;
+}
+.main a{
+    text-decoration: none;
+    color: salmon;
+}
+.main a:hover{
+    background-color: lightskyblue;
+    color: white;
+    font-weight: bold;
+    transition: .3s;
+}.main p{
+    margin-top: 20px;
+    text-align: justify;
+}
+
+/* sidebar */
+.sidebar{
+    width: 300px;
+    padding: 15px;
+    float: right;
+   
+}
+.sidebar .penulis{
+    font-size: 22px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.sidebar p{
+    text-align: justify;
+    
+}
+img{
+    opacity: calc(122,071,0,0.25);
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 20px 10px -20px rgba(0, 0, 0, .75);
+    transition: .3s;
+}
+
+
+
+/* footer */
+.footer{
+    padding: 30px;
+    background-color: #333;
+}
+.footer .copy{
+    color: #eaeaea;
+    text-align: center;
+
+}
+.footer a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: salmon;
+}
+.footer a:hover{
+    background-color:lightskyblue;
+    color: white;
+    font-weight: bold;
+    transition: .3s;
+}
+/* css clearfix hack */
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+ .cf:before,
+ .cf:after {
+     content: " "; /* 1 */
+     display: table; /* 2 */
+ }
+ 
+ .cf:after {
+     clear: both;
+ }
+ 
+ /**
+  * For IE 6/7 only
+  * Include this rule to trigger hasLayout and contain floats.
+  */
+ .cf {
+     *zoom: 1;
+ }

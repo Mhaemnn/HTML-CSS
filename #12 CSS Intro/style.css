@@ -1,0 +1,12 @@
+/*
+1. CSS singkatan dari cascading style sheet
+2. kalau di ilustrasikan dalam pembuatan rumah/gedung css seperti decorasi yang mempercantik rumah itu sendiri dalam hal ini warna, gaya dll.
+3. merupakan bahasa yang mengatur untuk mempercantik suatu halaman web 
+ */
+
+ /* contoh syntax css yang sederhana: */
+
+ body{
+     font-family: Arial, Helvetica, sans-serif;
+     /* font-family: keluarga font yang menggunakan font salah stau dari dua di atas */
+ }

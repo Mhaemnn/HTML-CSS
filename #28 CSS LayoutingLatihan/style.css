@@ -1,0 +1,162 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* style */
+body{
+    background-color: #eeeaea;
+    color: #333;
+    font:16px/28px arial, sans-serif;
+
+}
+.container{
+    width: 960px;
+    background-color:#fff;
+    margin: auto;
+    
+}
+.header{
+    padding: 10px;
+}
+.header .judul{
+    font-size: 30px;
+    font-weight: bold;
+}
+.header ul li{
+    display: inline-block;
+    margin-top:6px;
+    margin-right:5px;
+    text-decoration: none;
+}
+.header a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: salmon;
+    padding: 4px;
+}
+.header a:hover{
+    background-color: lightskyblue;
+    color: white;
+    transition: .3s;
+}
+.hero{
+    height: 280px;
+    background-image:url(./campur.jpg);
+    background-position: 0 -140px;
+    background-size: cover;
+    border-bottom: 4px solid lightskyblue;
+    border-top: 4px solid salmon;
+}
+.content{
+    width: 600px;
+    padding: 10px;
+
+}
+.content h2{
+    font-size: 19px;
+    font-weight: bold;
+    text-transform: capitalize;
+
+}
+.content .penulis{
+    font-size: 14px;
+    text-transform: capitalize;
+    margin-top: -5px;
+}
+.penulis a{
+    text-decoration: none;
+    color: salmon;
+    font-weight: bold;
+}
+.penulis a:hover{
+    background-color: lightskyblue;
+    color: white;
+    transition: .3s;
+}
+.content p{
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+/* css clearfix */
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+ .cf:before,
+ .cf:after {
+     content: " "; /* 1 */
+     display: table; /* 2 */
+ }
+ 
+ .cf:after {
+     clear: both;
+ }
+ 
+ /**
+  * For IE 6/7 only
+  * Include this rule to trigger hasLayout and contain floats.
+  */
+ .cf {
+     *zoom: 1;
+ }
+ 

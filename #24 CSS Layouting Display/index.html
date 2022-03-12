@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Display CSS Layouting</title>
+    <style>
+        /*
+        1. setipa tag pada html berada dalam sebuah kotak, property display pada css mengatur prilaku dari kotak tersebut
+        2. setiap tag pada html memiliki nilai default untuk property display, tetapi kita juga dapat mengubah prilaku dari tag->
+           tersebut dengan mengganti value nya
+           
+        3. display
+            -inline 
+            -inline block 
+            -block
+            -none
+         */
+        body {
+            background-color: #eee;
+        }
+
+        p {
+            color: tomato;
+        }
+
+        p.con1 {
+            display: none;
+        }
+
+        p.con2 {
+            border: 1px solid black;
+            display: inline;
+        }
+
+        p.con3 {
+            border: 1px solid black;
+            display: block;
+        }
+
+        p.con4 {
+            border: 1px solid black;
+            display: inline-block;
+        }
+
+        h3 {
+            margin: 0 auto;
+        }
+
+        div {
+            width: 500px;
+            background-color: white;
+            margin: 0 auto;
+            text-align: center;
+            padding: 0px;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>
+        <h3>dispay:none</h3> <br>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Eum tenetur tempore veritatis <p class="con1"> reiciendis doloribus iure ad illum maxime, </p>
+        magnam incidunt itaque debitis nihil. Illum ad, odio error maxime vero non.
+    </div>
+
+    <div>
+        <h3>display:inline</h3> <br>
+        Lorem ipsum dolor sit amet <p class="con2">consectetur adipisicing elit. Eos harum,</p>
+        voluptatem reprehenderit quasi possimus odio itaque quod nostrum cupiditate!
+        Quaerat consectetur ipsa repudiandae ipsam amet voluptate vero praesentium est quod.</p>
+    </div>
+
+    <div>
+        <h3>display:block</h3> <br>
+        Lorem, ipsum dolor sit amet <p class="con3">consectetur adipisicing elit.</p>
+        Sit fugit porro blanditiis praesentium iure veritatis ad suscipit amet,
+        fuga esse distinctio, quisquam, aperiam possimus neque voluptatum voluptatem hic commodi saepe?
+    </div>
+    <div>
+        <h3>display:inline-block</h3> <br>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+        Dolorem nulla voluptate magnam ut eaque <p class="con4"> recusandae delectus, sed ullam praesentium. </p>
+        Labore, magnam. Quo dolores iusto nostrum perferendis repellat modi dicta consectetur.
+    </div>
+</body>
+
+</html>

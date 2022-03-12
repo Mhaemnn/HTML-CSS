@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inheritCss</title>
+    <style>
+        div{
+            width: 50%;
+            margin: 0 auto;
+        }
+        div.satu{
+            border: 1px solid black;
+            color: salmon;
+        }
+        div.dua{
+            border: 1px solid black ;
+        }
+        p{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="satu">
+        <p class="satu">
+            kalimat ini tidak menggangdung <em class="satu"> nilai property</em> css
+        </p>
+    </div>
+    <br>
+    <div class="dua">
+        <p class="dua">
+            kalimat ini menggandung <em class="dua"> nilai property</em> css
+        </p>
+    </div>
+</body>
+</html>

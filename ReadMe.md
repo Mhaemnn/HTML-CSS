@@ -27,5 +27,3 @@ __HTML__ adalah bahasa markup yang membentuk struktur halaman website agar dapat
     </body>
 </html>
 ```
-
-> Dipersilahkan bagi yang ingin melakukan open pull request atau konstribusi pada repository HTML.

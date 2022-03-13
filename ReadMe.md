@@ -1,5 +1,7 @@
 ## HTML DASAR
-<img src='Logo.png' style='width:30%; margin-left:auto; margin-right:auto; display:block'> <br>
+[![GitHub issues](https://img.shields.io/github/issues/Mhaemnn/HTML-CSS?logo=html)](https://github.com/Mhaemnn/HTML-CSS/issues)
+[![GitHub stars](https://img.shields.io/github/stars/Mhaemnn/HTML-CSS?logo=HTML&style=flat-square)](https://github.com/Mhaemnn/HTML-CSS/stargazers)
+
 Repositori ini berisi tentang HTML-CSS dasar dari hasil pembelajaran matakulaih __Teknik Informtika.__ 
 __HTML__ adalah bahasa markup yang membentuk struktur halaman website agar dapat diproses dan dikenali oleh web browser, __CSS__ singkatan dari cascading style sheet
 kalau di ilustrasikan dalam pembuatan rumah/gedung css seperti decorasi yang mempercantik rumah itu sendiri dalam hal ini warna, gaya dll.
